@@ -6,7 +6,7 @@
 * **[2025/8/11]** Thank you for your interest in SAMA. We are currently busy with other tasks, but will do our best to release the code and model resources by the end of next month.
 
 ## Citation
-**If you find SAMA useful for your research and applications, please kindly cite using this BibTeX 🙏:**
+**If you find SAMA useful for your research or applications, please kindly cite using this BibTeX 🙏:**
 ```bibtex
 @article{sun2025sama,
   title={SAMA: Towards Multi-Turn Referential Grounded Video Chat with Large Language Models},
