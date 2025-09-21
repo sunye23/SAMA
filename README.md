@@ -2,7 +2,7 @@
 🔥 Code for the SAMA: Towards Multi-Turn Referential Grounded Video Chat with Large Language Models. 
 
 ## :rocket: Updates 
-
+* **[2025/9/21]** SAMA is accepted to **NeurIPS 2025**🔥! See you in San Diego!
 * **[2025/8/11]** Thank you for your interest in SAMA. We are currently busy with other tasks, but will do our best to release the code and model resources by the end of next month.
 
 ## Citation
