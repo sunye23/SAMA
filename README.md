@@ -1,4 +1,4 @@
-# SAMA
+# SAMA: Towards Multi-Turn Referential Grounded Video Chat with Large Language Models. [NeruIPS 2025]
 🔥 Code for the SAMA: Towards Multi-Turn Referential Grounded Video Chat with Large Language Models. 
 
 ## :rocket: Updates 
