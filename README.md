@@ -19,7 +19,7 @@
 - [SAMA Weights](#sama-weights)
 - [Data preparation](#data-preparation)
 - [Training](#training)
-- [Evaluation](#evaluation)
+- [Evaluation & Benchmark](#evaluation--benchmark)
 
 ## Installation
 
@@ -29,4 +29,5 @@
 
 ## Training
 
-## Evaluation
+## Evaluation & Benchmark
+
