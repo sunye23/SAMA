@@ -4,8 +4,6 @@
 ## :rocket: Updates 
 * **[2025/9/25]** Thank you for your interest in SAMA✨. We are currently busy with our CVPR submission, but will do our best to release the code and models by the end of November.
 * **[2025/9/21]** SAMA is accepted to **NeurIPS 2025**🔥! See you in San Diego!😉
-
-
 ## Citation
 **If you find SAMA useful for your research or applications, please kindly cite using this BibTeX 🙏:**
 ```bibtex
@@ -16,3 +14,19 @@
   year={2025}
 }
 ```
+## Contents
+- [Install](#install)
+- [SAMA Weights](#sama-weights)
+- [Training data](#training-data)
+  - [Flickr30k](#flickr30k)
+  - [COCO](#coco)
+  - [LLaVA](#llava)
+- [Training](#training)
+
+## Install
+
+## SAMA Weights
+
+## Training data
+
+## Training
