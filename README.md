@@ -14,12 +14,13 @@
   year={2025}
 }
 ```
-## Contents
+## Contents 
 - [Installation](#installation)
 - [SAMA Weights](#sama-weights)
 - [Data preparation](#data-preparation)
 - [Training](#training)
 - [Evaluation & Benchmark](#evaluation--benchmark)
+- [Acknowledgments](#acknowledgments)
 
 ## Installation
 
@@ -30,4 +31,6 @@
 ## Training
 
 ## Evaluation & Benchmark
+
+## Acknowledgments
 
