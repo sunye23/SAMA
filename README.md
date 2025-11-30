@@ -17,16 +17,16 @@
 ## Contents
 - [Install](#install)
 - [SAMA Weights](#sama-weights)
-- [Training data](#training-data)
-  - [Flickr30k](#flickr30k)
-  - [COCO](#coco)
-  - [LLaVA](#llava)
+- [Data preparation](#data-preparation)
 - [Training](#training)
+- [Evaluation](#evaluation)
 
 ## Install
 
 ## SAMA Weights
 
-## Training data
+## Data preparation
 
 ## Training
+
+## Evaluation
