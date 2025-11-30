@@ -15,13 +15,13 @@
 }
 ```
 ## Contents
-- [Install](#install)
+- [Installation](#installation)
 - [SAMA Weights](#sama-weights)
 - [Data preparation](#data-preparation)
 - [Training](#training)
 - [Evaluation](#evaluation)
 
-## Install
+## Installation
 
 ## SAMA Weights
 
