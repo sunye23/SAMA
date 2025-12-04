@@ -15,7 +15,7 @@
 ```
 ## Contents 
 - [Installation](#installation)
-- [SAMA Weights](#sama-weights)
+- [Model Weights](#model-weights)
 - [Training Data preparation](#training-data-preparation)
 - [Training](#training)
 - [Evaluation & Benchmark](#evaluation--benchmark)
@@ -43,7 +43,7 @@
 ```
 </details>
 
-## SAMA Weights
+## Model Weights
 
 ## Training Data preparation
 
