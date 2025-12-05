@@ -6,13 +6,14 @@
 ## Citation
 **If you find SAMA useful for your work, please kindly cite using the BibTeX 🙏🙏🙏:**
 ```bibtex
-@article{sun2025sama,
+@inproceedings{sun2025sama,
   title={SAMA: Towards Multi-Turn Referential Grounded Video Chat with Large Language Models},
   author={Sun, Ye and Zhang, Hao and Ding, Henghui and Zhang, Tiehua and Ma, Xingjun and Jiang, Yu-Gang},
-  journal={arXiv preprint arXiv:2505.18812},
+  booktitle={NeurIPS},
   year={2025}
 }
 ```
+
 ## Contents 
 - [Installation](#installation)
 - [Model Weights](#model-weights)
