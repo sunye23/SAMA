@@ -59,7 +59,7 @@
 
 4. For the [VidSTG dataset](https://github.com/Guaranteer/VidSTG-Dataset), we have performed frame extraction. Please download this dataset first and conduct frame extraction using our provided `/tools/vidstg_process.py`.
 
-5. Download our json files here and put them into this folder.
+5. Download our json files here and put them into sama239k_data folder.
 
 The final data structure should be like:
 ```
