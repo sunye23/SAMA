@@ -50,15 +50,15 @@
 <details open>
 <summary>Data Preparation</summary>
 
-(1) Please first download the Sa2VA training datasets and place them in the `data` directory. The download link is [here](https://huggingface.co/datasets/Dense-World/Sa2VA-Training).
+1. Please first download the Sa2VA training datasets and place them in the `data` directory. The download link is [here](https://huggingface.co/datasets/Dense-World/Sa2VA-Training).
 
-(2) To support the training of SAMA239K, please first download the [LVVIS dataset](https://github.com/haochenheheda/LVVIS) and the [RefYoutube-VOS dataset](https://youtube-vos.org/dataset/rvos/) into the **sama239k_data** folder.
+2. To support the training of SAMA239K, please first download the [LVVIS dataset](https://github.com/haochenheheda/LVVIS) and the [RefYoutube-VOS dataset](https://youtube-vos.org/dataset/rvos/) into the **sama239k_data** folder.
 
-(3) Create symbolic links in sama239k_data folder for the mevis dataset and the sav_train dataset (sam_v_full). These two datasets can be obtained from the Sa2VA training data.
+3. Create symbolic links in sama239k_data folder for the mevis dataset and the sav_train dataset (sam_v_full). These two datasets can be obtained from the Sa2VA training data.
 
-(4) For the VidSTG dataset, we have performed frame extraction. You can download it here.
+4. For the VidSTG dataset, we have performed frame extraction. You can download it here.
 
-(5) Download our json files here and put them into this folder.
+5. Download our json files here and put them into this folder.
 
 The final data structure should be like:
 ```
