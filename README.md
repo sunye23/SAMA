@@ -55,6 +55,18 @@ Please first download the Sa2VA training datasets and place them in the `data` d
 The final data structure should be like:
 ```
 data/
+├── sama239k_data
+|   ├── mevis
+|   |   └── train
+|   ├── lvvis
+|   |   └── train
+|   ├── ref_youtube_vos
+|   |   └── train
+|   ├── sav_train
+|   |   └── sav_000
+|   |   └── .....
+|   ├── VidSTG
+|   |   └── train
 ├── video_datas
 |   ├── revos
 |   ├── mevis
