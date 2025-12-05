@@ -57,7 +57,7 @@
 
 3. Create symbolic links in sama239k_data folder for the mevis dataset and the sav_train dataset (sam_v_full). These two datasets can be obtained from the Sa2VA training data.
 
-4. For the VidSTG dataset, we have performed frame extraction. You can download it here.
+4. For the [VidSTG dataset](https://github.com/Guaranteer/VidSTG-Dataset), we have performed frame extraction. Please download this dataset first and conduct frame extraction using our provided /tools/vidstg_process.py.
 
 5. Download our json files here and put them into this folder.
 
