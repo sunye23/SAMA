@@ -47,6 +47,41 @@
 
 ## Training Data preparation
 
+<details open>
+<summary>Data Preparation</summary>
+
+Please first download the Sa2VA training datasets and place them in the `data` directory. The download link is [here](https://huggingface.co/datasets/Dense-World/Sa2VA-Training).
+
+The final data structure should be like:
+```
+data/
+├── video_datas
+|   ├── revos
+|   ├── mevis
+|   └── davis17
+|   └── chat_univi
+|   └── sam_v_full # [!important] please download this from sam-2 directly.
+|   └── Ref-SAV.json
+├── ref_seg
+|   ├── refclef
+|   ├── refcoco
+|   ├── refcoco+
+|   ├── refcocog
+|   ├── 
+├── glamm_data
+|   ├── images
+|   ├── annotations
+├── osprey-724k
+|   ├── Osprey-724K
+|   ├── coco
+├── llava_data
+|   ├── llava_images
+|   ├── LLaVA-Instruct-150K
+|   ├── LLaVA-Pretrain
+
+```
+</details>
+
 ## Training
 
 ## Evaluation & Benchmark
