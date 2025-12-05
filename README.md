@@ -76,6 +76,10 @@ data/
 |   |   └── .....
 |   ├── VidSTG
 |   |   └── train
+|   |       └── 2399224635
+|   |           └── frame_0.jpg
+|   |           └── frame_4.jpg
+|   |           └── .....
 ├── video_datas
 |   ├── revos
 |   ├── mevis
