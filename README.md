@@ -1,4 +1,4 @@
-# SAMA: Towards Multi-Turn Referential Grounded Video Chat with Large Language Models. [NeruIPS 2025]
+# SAMA: Towards Multi-Turn Referential Grounded Video Chat with Large Language Models. [NeurIPS 2025]
 
 <a href="https://arxiv.org/abs/2505.18812"><img src="https://img.shields.io/badge/arXiv-2505.18812-b31b1b.svg" alt="arXiv"></a>
 
