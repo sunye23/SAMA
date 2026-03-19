@@ -6,7 +6,7 @@
 
 
 ## :rocket: Updates 
-* **[2025/12/12]** We are in the process of preparing the data. Please wait a moment.
+* **[2026/3/19]** The code will be released within one week. Please wait a moment.
 * **[2025/9/21]** SAMA is accepted to **NeurIPS 2025**🔥! See you in San Diego!😉
 ## Citation
 **If you find SAMA useful for your work, please kindly cite using the BibTeX 🙏🙏🙏:**
