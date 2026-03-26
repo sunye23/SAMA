@@ -113,6 +113,15 @@ data/
 </details>
 
 ## Training
+```bash
+> bash scripts/train/run_train_1b.sh
+```
+```bash
+> bash scripts/train/run_train_4b.sh
+```
+```bash
+> bash scripts/train/run_train_8b.sh
+```
 
 ## Evaluation & Benchmark
 
