@@ -124,6 +124,30 @@ data/
 ```
 
 ## Evaluation & Benchmark
+1. Image Segmentation: Example evaluation scripts for datasets such as Refcoco/+/g.
+```bash
+> bash scripts/inference/eval_refcoco.sh
+```
+
+2. Video Segmentation: Example evaluation scripts for datasets such as MeViS/Ref-Davis/Ref-youtube/ReVOS.
+```bash
+> bash scripts/inference/eval_mevis.sh
+> bash tools/eval_video_seg/scripts/eval_mevis_metrics.sh
+```
+
+3. SAMA-Bench-G Evaluation:
+```bash
+> bash scripts/inference/eval_sama_bench_g.sh
+> python scripts/inference/compute_sama_bench_g_final.py
+```
+
+4. SAMA-Bench-C Evaluation:
+```bash
+> bash scripts/inference/eval_sama_bench_c.sh
+> python scripts/inference/compute_sama_bench_c_final.py
+```
+
+5. General Benchmark Evaluation: For the evaluation of general benchmarks such as MME and VideoMME, we primarily use [VLMEvalKit](https://github.com/open-compass/vlmevalkit).
 
 ## Data annotation
 
