@@ -96,6 +96,12 @@ data/
 |   |           └── frame_0.jpg
 |   |           └── frame_4.jpg
 |   |           └── .....
+|   ├── sama239k_train_final.json          # sama 239k json file
+|   ├── mevis_train_mask_dict.json         # reorganized mask annotation files
+|   ├── lvvis_train_mask_dict.json
+|   ├── ref_youtube_train_mask_dict.pkl
+|   ├── SAV_mask_dict_train.json
+|   ├── VidSTG_mask_dict_train_updated.json
 ├── video_datas
 |   ├── revos
 |   ├── mevis
