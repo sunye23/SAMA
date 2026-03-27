@@ -147,6 +147,29 @@ data/
 ```
 
 3. SAMA-Bench-G Evaluation:
+
+The SAMA-Bench test set is drawn from the validation splits of four open-source video datasets: MeViS, LVVIS, Ref-YouTube-VOS, and VidSTG. Among them, the videos in the VidSTG validation split must also be processed into extracted frames using the provided `/tools/vidstg_process.py`.
+
+The expected data directory structure is as follows:
+```
+sama_bench
+├── mevis
+|   └── val_u
+|           └── JPEGImages
+├── lvvis
+|   └── val
+|           └── JPEGImages
+├── ref_youtube_vos
+|   └── valid
+|           └── JPEGImages
+├── VidSTG
+    └── val
+        └── 2400171624
+            └── frame_0.jpg
+            └── frame_4.jpg
+            └── .....
+```
+Example evaluation scripts for sama-bench-g:
 ```bash
 > bash scripts/inference/eval_sama_bench_g.sh
 > python scripts/inference/compute_sama_bench_g_final.py
