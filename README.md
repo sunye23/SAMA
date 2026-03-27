@@ -6,7 +6,7 @@
 
 
 ## :rocket: Updates 
-* **[2026/3/25]** The code will be released before April 7 (after the ICML rebuttal). Thank you for your understanding, and we appreciate your patience.
+* **[2026/3/27]** The code will be released before April. Thank you for your patience.
 * **[2025/9/21]** SAMA is accepted to **NeurIPS 2025**🔥! See you in San Diego!😉
 ## Citation
 **If you find SAMA useful for your work, please kindly cite using the BibTeX 🙏🙏🙏:**
