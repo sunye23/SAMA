@@ -148,12 +148,12 @@ data/
 
 3. SAMA-Bench-G Evaluation:
 
-The SAMA-Bench test set is drawn from the validation splits of four open-source video datasets: MeViS, LVVIS, Ref-YouTube-VOS, and VidSTG. Among them, the videos in the VidSTG validation split must also be processed into extracted frames using the provided `/tools/vidstg_process.py`.
+The SAMA-Bench test set is drawn from the validation splits of four open-source video datasets: MeViS, LVVIS, Ref-YouTube-VOS, and VidSTG. Among them, the videos in the VidSTG validation split must also be processed into extracted frames using the provided `/tools/vidstg_process.py`. We have reorganized or re-annotated the mask annotation files of these datasets. In addition, due to the long evaluation time, we split the SAMA-Bench JSON file into multiple subsets, allowing you to utilize multiple nodes simultaneously to accelerate inference. Running inference on SAMA-Bench-g requires at least an A100-80G GPU. Since the videos in VidSTG are relatively long, the total inference time on 8 * A100-80G is approximately 4 hours. 
 
 The expected data directory structure is as follows:
 ```
 sama_bench
-├── mevis
+├── mevis                        # Video Image files
 |   └── val_u
 |           └── JPEGImages
 ├── lvvis
@@ -163,11 +163,28 @@ sama_bench
 |   └── valid
 |           └── JPEGImages
 ├── VidSTG
-    └── val
-        └── 2400171624
-            └── frame_0.jpg
-            └── frame_4.jpg
-            └── .....
+|    └── val
+|        └── 2400171624
+|            └── frame_0.jpg
+|            └── frame_4.jpg
+|            └── .....
+├── Mevis_mask_dict_val.json      # mask annotation files
+├── LVVIS_mask_dict_val.json
+├── RefYoutube_mask_dict_val.json
+├── VidSTG_mask_dict_val_updated.json
+├── lvvis_0.json                  # SAMA-Bench JSON files
+├── lvvis_1.json
+├── mevis.json
+├── ref_youtube_vos_0.json
+├── ref_youtube_vos_1.json
+├── VidSTG_0.json
+├── VidSTG_1.json
+├── VidSTG_2.json
+├── VidSTG_3.json
+├── VidSTG_4.json
+├── VidSTG_5.json
+├── VidSTG_6.json
+├── VidSTG_7.json
 ```
 Example evaluation scripts for sama-bench-g:
 ```bash
