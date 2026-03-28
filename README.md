@@ -234,6 +234,21 @@ Example evaluation scripts for sama-bench-g:
 5. General Benchmark Evaluation: For the evaluation of general benchmarks such as MME and VideoMME, we primarily use [VLMEvalKit](https://github.com/open-compass/vlmevalkit).
 
 ## Experiments
+**1. Comparison with the capabilities of the image-level model Ferret**
+   
+<p align="center">
+  <img src="/resources/sama_vis.png" width="1000"/>
+</p>
+
+**2. Video Referential Grounded Chat**
+<p align="center">
+  <img src="/resources/grounded_conv.png" width="1000"/>
+</p>
+
+**3. Video Grounded Description**
+<p align="center">
+  <img src="/resources/grounded_description.png" width="1000"/>
+</p>
 
 ## Data annotation
 
