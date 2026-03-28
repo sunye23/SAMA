@@ -20,12 +20,17 @@
 ```
 
 ## Contents 
+- [Introduction](#introduction)
 - [Installation](#installation)
 - [Model Weights](#model-weights)
 - [Training Data preparation](#training-data-preparation)
 - [Training](#training)
 - [Evaluation & Benchmark](#evaluation--benchmark)
+- [Experiments](#experiments)
+- [Data annotation](#data-annotation)
 - [Acknowledgments](#acknowledgments)
+
+## Introduction
 
 ## Installation
 <details open>
@@ -216,6 +221,8 @@ Example evaluation scripts for sama-bench-g:
 ```
 
 5. General Benchmark Evaluation: For the evaluation of general benchmarks such as MME and VideoMME, we primarily use [VLMEvalKit](https://github.com/open-compass/vlmevalkit).
+
+## Experiments
 
 ## Data annotation
 
