@@ -6,7 +6,9 @@
 
 
 ## :rocket: Updates 
-* **[2026/3/27]** The code will be released before April. Thank you for your patience.
+* **[2026/3/28]** The code, models, and data of SAMA have been open-sourced. If you have any questions, feel free to contact: yesun23@m.fudan.edu.cn. We also welcome potential collaborations.
+Finally, please consider citing SAMA if you find it helpful for your research.👍
+
 * **[2025/9/21]** SAMA is accepted to **NeurIPS 2025**🔥! See you in San Diego!😉
 ## Citation
 **If you find SAMA useful for your work, please kindly cite using the BibTeX 🙏🙏🙏:**
