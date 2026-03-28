@@ -154,7 +154,7 @@ data/
 </details>
 
 ## Training
-To complete the training of SAMA, please first prepare the Sa2VA model weights and ensure that the dataset paths, model paths, and other configurations in the config file are set correctly.
+To complete the training of SAMA, please first prepare the Sa2VA model weights and ensure that the dataset paths, model paths, and other configurations in the config file are set correctly. Model training is based on A100 (80G) x 8.
 ```bash
 > bash scripts/train/run_train_1b.sh
 ```
