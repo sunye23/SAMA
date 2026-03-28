@@ -251,6 +251,9 @@ Example evaluation scripts for sama-bench-g:
 </p>
 
 ## Data annotation
+We hope that open-sourcing the annotation prompts and code will further encourage the development of more datasets focused on fine-grained understanding and perception within the community. These resources can be found in the `annotation` directory.
+
+It is worth noting that the annotations were originally generated using Gemini-1.5 Pro. However, this API is no longer supported. Therefore, we recommend adapting and updating the provided code accordingly to ensure compatibility with the current Gemini API.
 
 ## Acknowledgments
-
+The code of SAMA is built upon [Sa2VA](https://github.com/bytedance/Sa2VA), and the evaluation code is adapted from [VideoGLaMM](https://github.com/mbzuai-oryx/VideoGLaMM) and [VLMEvalKit](https://github.com/open-compass/VLMEvalKit). We sincerely thank them for their excellent contributions.
