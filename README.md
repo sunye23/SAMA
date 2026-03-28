@@ -10,7 +10,7 @@
 Finally, please consider citing SAMA if you find it helpful for your research**.👍
 
 * **[2025/9/21]** SAMA is accepted to **NeurIPS 2025**🔥! See you in San Diego!😉
-## Citation
+## 🙏 Citation
 **If you find SAMA useful for your work, please kindly cite using the BibTeX 🙏🙏🙏:**
 ```bibtex
 @inproceedings{sun2025sama,
