@@ -50,6 +50,12 @@
 </details>
 
 ## Model Weights
+We provide the following models:
+| Model Name |                       HF Link                        |
+|:----------:|:----------------------------------------------------:|
+|  SAMA-1B  | [🤗 link](https://huggingface.co/Sunye2311/SAMA_1B) |
+|  SAMA-4B  | [🤗 link](https://huggingface.co/Sunye2311/SAMA_4B) |
+|  SAMA-8B  | [🤗 link](https://huggingface.co/Sunye2311/SAMA_8B) |
 
 ## Training Data preparation
 
@@ -75,7 +81,7 @@ VidSTG_JSON_DIR/
 └── video3.json
 ```
 
-5. Download our json files here and put them into sama239k_data folder.
+5. Download our json files [here](https://huggingface.co/datasets/Sunye2311/SAMA_Dataset) and put them into sama239k_data folder.
 
 The final data structure should be like:
 ```
@@ -159,7 +165,7 @@ After training is complete, use the script below to convert and obtain the final
 
 3. SAMA-Bench-G Evaluation:
 
-The SAMA-Bench test set is drawn from the validation splits of four open-source video datasets: MeViS, LVVIS, Ref-YouTube-VOS, and VidSTG. Among them, the videos in the VidSTG validation split must also be processed into extracted frames using the provided `/tools/vidstg_process.py`. We have reorganized or re-annotated the mask annotation files of these datasets. In addition, due to the long evaluation time, we split the SAMA-Bench JSON file into multiple subsets, allowing you to utilize multiple nodes simultaneously to accelerate inference. Running inference on SAMA-Bench-g requires at least an A100-80G GPU. Since the videos in VidSTG are relatively long, the total inference time on 8 * A100-80G is approximately 4 hours. 
+Download our SAMA-Bench json files [here](https://huggingface.co/datasets/Sunye2311/SAMA_Dataset). The SAMA-Bench test set is drawn from the validation splits of four open-source video datasets: MeViS, LVVIS, Ref-YouTube-VOS, and VidSTG. Among them, the videos in the VidSTG validation split must also be processed into extracted frames using the provided `/tools/vidstg_process.py`. We have reorganized or re-annotated the mask annotation files of these datasets. In addition, due to the long evaluation time, we split the SAMA-Bench JSON file into multiple subsets, allowing you to utilize multiple nodes simultaneously to accelerate inference. Running inference on SAMA-Bench-g requires at least an A100-80G GPU. Since the videos in VidSTG are relatively long, the total inference time on 8 * A100-80G is approximately 4 hours. During evaluation, we primarily use the first-frame prompt of the query object as input to the model.
 
 The expected data directory structure is as follows:
 ```
