@@ -11,7 +11,7 @@ Finally, please consider citing SAMA or giving it a ⭐ if you find it helpful f
 
 * **[2025/9/21]** SAMA is accepted to **NeurIPS 2025**🔥! See you in San Diego!😉
 ## 🙏 Citation
-**If you find SAMA useful for your work, please kindly cite using the BibTeX 🙏🙏🙏:**
+**If you find SAMA useful for your work, please kindly cite using the BibTeX:**
 ```bibtex
 @inproceedings{sun2025sama,
   title={SAMA: Towards Multi-Turn Referential Grounded Video Chat with Large Language Models},
